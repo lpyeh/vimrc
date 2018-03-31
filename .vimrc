@@ -26,17 +26,23 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
+" ---EECS 398----
 " Jellybeans colorscheme plugin (Section 1.2)
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'easymotion/vim-easymotion'
-" Nerdtree plugin (Section 1.1) to see directory 
+" ---EECS 398---
+" Nerdtree plugin (Section 1.1) to see layout of directory 
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+" ---EECS 398---
 " Plugin for latex compatibility in vim (Section 1.3)
 " I use latex to write research papers, so having the ability 
 " to do it in vim is nice!
 Plugin 'vim-latex/vim-latex'
+" ---EECS 398---"
 "Plug in for R compatibility
+"I'm an applied stats minor, so having 
+"R compatibility with vim is awesome!!
 Plugin 'jalvesaq/Nvim-R'
 
 call vundle#end()
