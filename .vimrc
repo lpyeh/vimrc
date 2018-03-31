@@ -51,8 +51,14 @@ filetype plugin indent on
 " Colorscheme set up with Plugin above
 colorscheme jellybeans
 
+" SETTING UP 
 " Allow mouse clicks in vim
 set mouse=a
+set visualbell
+set wildmenu
+set number
+set autoindent
 
+nnoremap <s-6> ^
 nnoremap <leader>. :CtrlPTag<cr>
 
