@@ -45,6 +45,10 @@ Plugin 'vim-latex/vim-latex'
 "R compatibility with vim is awesome!!
 Plugin 'jalvesaq/Nvim-R'
 
+"398 Advanced HW 13"
+Plugin 'w0rp/ale'
+
+
 call vundle#end()
 filetype plugin indent on
 
@@ -58,6 +62,10 @@ set visualbell
 set wildmenu
 set number
 set autoindent
+" 398 Adv HW 13 Additions"
+set noerrorbells
+set novisualbell
+set hlsearch
 
 nnoremap <s-6> ^
 nnoremap <leader>. :CtrlPTag<cr>
